@@ -1,0 +1,3 @@
+1. 初始化时打开android模拟器，使用injectTarget下的push.py将 inject push到模拟器中
+2. 对于待检测的apk，将apk安装到模拟器中，根据apk中的包名得到该app的进程pid
+3. 将pid作为参数执行 injectTarget,得到该app是否可以注入的结果
